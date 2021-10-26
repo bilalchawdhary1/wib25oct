@@ -5,7 +5,7 @@
 }
 .header{
     width: 100%;
-    background: linear-gradient( to top, rgba(0,0,0,0.5)30%, rgba(0,0,0,0.5)30%), url(backbround\ 01.jpg);
+    background: linear-gradient( to top, rgba(0, 0, 0, 0.753)30%, rgba(0,0,0,0.5)30%), url(backbround\ 01.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -126,7 +126,6 @@ span{
     height: 40px;
     margin-left: 20px;
     /* cursor: pointer; */
-
-    
 }
+
 
