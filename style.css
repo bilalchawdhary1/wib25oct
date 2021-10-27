@@ -5,7 +5,7 @@
 }
 .header{
     width: 100%;
-    background: linear-gradient( to top, rgba(0, 0, 0, 0.753)30%, rgba(0,0,0,0.5)30%), url(backbround\ 01.jpg);
+    background: linear-gradient( to top, rgba(0, 0, 0, 0.8)50%, rgba(0,0,0,0.8)50%), url(backbround\ 01.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -56,17 +56,21 @@ list-style: none;
 button{
     /* margin-right: 100px; */
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     height: 45px;
     width: 100px;
     background-color: orange;
-    color: white;
+    color:black;
     border-radius: 10px;
     border: none;
     padding: 0px 20px;
     font-size: 20px;
     cursor: pointer;
 
+}
+button:hover{
+    color:orange;
+    background-color: white;
 }
 .search{
     /* width: 330px; */
@@ -77,10 +81,11 @@ button{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 2px solid orange;
+    border: 1px solid orange;
     font-size: 20px;
     /* text-align: center; */
     padding: 10px;
+    color: orange;
 
 }
 .content{
@@ -89,18 +94,19 @@ button{
     margin: auto;
     color: white;
     position: relative;
+    top: 30%;
 
 }
 .content p{
     padding-left: 20px;
-    padding-bottom: 45px;
+    padding-bottom: 50px;
     line-height: 20px;
 }
 .content h1{
     font-family: 'Times New Roman';
     font-size: 50px;
     padding-left: 20px;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     letter-spacing: 2px;
     margin-bottom: 35px;
     /* padding: 25px 0px; */
@@ -115,17 +121,106 @@ span{
 .content button{
     margin-bottom: 30px;
     background-color: orange;
-    color: white;
-    border-radius: 10px;
+    color: black;
+    border-radius: 20px;
     border-style: none;
     padding: 0px 20px;
     font-size: 20px;
+    font-weight: 700;
+    position: relative;
     cursor: pointer;
+    left: 250px;
     /* border: none; */
-    width: 160px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
     margin-left: 20px;
     /* cursor: pointer; */
+}
+.content button:hover{
+    background-color: white;
+    color: orange;
+}
+.form{
+    width: 250px;
+    height:350px;
+    /* background-color: black; */
+    background: linear-gradient( to top, rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    /* top: -20; */
+    right:80px;
+    bottom: 30px;
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    /* font-weight: bold; */
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 30px;
+
+}
+.formbtn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.4 ease;
+
+}
+.formbtn:hover{
+    background: white;
+    color: orange;
+}
+.formbtn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    /* margin-top: 20px; */
+    text-align: center;
+    font-weight: 800;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+
+}
+.link2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
 }
 
 
